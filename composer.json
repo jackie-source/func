@@ -1,0 +1,21 @@
+{
+  "name": "ashui/func",
+  "description": "a test composer library",
+  "authors": [
+    {
+      "name": "xuqiang.shui"
+    }
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "func\\": "src"
+    },
+    "files": [
+      "src/function.php"
+    ]
+  }
+}
