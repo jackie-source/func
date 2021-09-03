@@ -6,6 +6,7 @@
  * @since   2021/9/3 12:10 下午
  * @version 0.1
  */
+
 namespace func;
 
 class Test
@@ -20,8 +21,14 @@ class Test
     {
         return printf("我们%s中国式", $a);
     }
-    
-    public function test3($a, $b) {
-        return ($a*$b);
+
+    public function test3($a, $b)
+    {
+        return ($a * $b);
+    }
+
+    public function test4($a, $b, $c)
+    {
+        return ($a + $b + $c);
     }
 }
