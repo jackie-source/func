@@ -20,4 +20,8 @@ class Test
     {
         return printf("我们%s中国式", $a);
     }
+    
+    public function test3($a, $b) {
+        return ($a*$b);
+    }
 }
