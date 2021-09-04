@@ -1,6 +1,8 @@
 {
   "name": "ashuiqiang/func",
   "description": "a test composer library",
+  "keywords": ["common", "test", "func"],
+  "type": "library",
   "authors": [
     {
       "name": "xuqiang.shui"
@@ -12,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "func\\": "src"
+      "func\\": "src/"
     },
     "files": [
       "src/function.php"
