@@ -17,7 +17,7 @@
       "func\\": "src/"
     },
     "files": [
-      "src/function.php"
+      "src/common.php"
     ]
   }
 }
